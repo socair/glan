@@ -1,9 +1,9 @@
-#' Drop brackets
+#' Bain lúibíní cearnacha
 #'
-#' @param dropbrackets Drop brackets from a dataset
-#' @param x Dataset to which function is applied
+#' @param dropbrackets Bain lúibíní cearnacha as tacar sonraí
+#' @param x An tacar sonraí ar a gcuirtear an fheidhm i bhfeidhm
 #'
-#' @returns Changes are saved to the dataset
+#' @returns Sábháiltear athruithe sa tacar sonraí
 #' @export
 #'
 #' @examples x <- dropbrackets(x)
@@ -15,12 +15,12 @@ dropbrackets <- function(x) {
 }
 
 
-#' Drop braces
+#' Bain lúibíní slabhracha
 #'
-#' @param dropbraces Drop braces from a dataset
-#' @param x Dataset to which function is applied
+#' @param dropbraces Bain lúibíní slabhracha as tacar sonraí
+#' @param x An tacar sonraí ar a gcuirtear an fheidhm i bhfeidhm
 #'
-#' @returns Changes are saved to the dataset
+#' @returns Sábháiltear athruithe sa tacar sonraí
 #' @export
 #'
 #' @examples x <- dropbraces(x)
@@ -31,12 +31,12 @@ dropbraces <- function(x) {
   x
 }
 
-#' Drop quotation marks
+#' Bain comhartha athfhriotail
 #'
-#' @param dropquotes Drop quotation marks from a dataset
-#' @param x Dataset to which function is applied
+#' @param dropquotes Bain comhartha athfhriotail as tacar sonraí
+#' @param x An tacar sonraí ar a gcuirtear an fheidhm i bhfeidhm
 #'
-#' @returns Changes are saved to the dataset
+#' @returns Sábháiltear athruithe sa tacar sonraí
 #' @export
 #'
 #' @examples x <- dropquotes(x)
@@ -48,12 +48,12 @@ dropquotes <- function(x) {
 }
 
 
-#' Drop parentheses
+#' Bain lúibíní
 #'
-#' @param dropparen Drop parentheses from a dataset
-#' @param x Dataset to which function is applied
+#' @param dropparen Bain lúibíní as tacar sonraí
+#' @param x An tacar sonraí ar a gcuirtear an fheidhm i bhfeidhm
 #'
-#' @returns Changes are saved to the dataset
+#' @returns Sábháiltear athruithe sa tacar sonraí
 #' @export
 #'
 #' @examples x <- dropparen(x)
@@ -65,12 +65,12 @@ dropparen <- function(x) {
 }
 
 
-#' Drop commas
+#' Bain camóga
 #'
-#' @param dropcomma Drop commas from a dataset
-#' @param x Dataset to which function is applied
+#' @param dropcomma Bain camóga as tacar sonraí
+#' @param x An tacar sonraí ar a gcuirtear an fheidhm i bhfeidhm
 #'
-#' @returns Changes are saved to the dataset
+#' @returns Sábháiltear athruithe sa tacar sonraí
 #' @export
 #'
 #' @examples x <- dropcomma(x)
@@ -82,12 +82,12 @@ dropcomma <- function(x) {
 }
 
 
-#' Drop full stops
+#' Bain lánstadanna
 #'
-#' @param dropstop Drop full stops from a dataset
-#' @param x Dataset to which function is applied
+#' @param dropstop Bain lánstadanna as tacar sonraí
+#' @param x An tacar sonraí ar a gcuirtear an fheidhm i bhfeidhm
 #'
-#' @returns Changes are saved to the dataset
+#' @returns Sábháiltear athruithe sa tacar sonraí
 #' @export
 #'
 #' @examples x <- dropstop(x)
@@ -99,12 +99,12 @@ dropstop <- function(x) {
 }
 
 
-#' Drop colons
+#' Bain idirstadanna
 #'
-#' @param dropcolon Drop colons from a dataset
-#' @param x Dataset to which function is applied
+#' @param dropcolon Bain idirstadanna as tacar sonraí
+#' @param x An tacar sonraí ar a gcuirtear an fheidhm i bhfeidhm
 #'
-#' @returns Changes are saved to the dataset
+#' @returns Sábháiltear athruithe sa tacar sonraí
 #' @export
 #'
 #' @examples x <- dropcolon(x)
@@ -116,12 +116,12 @@ dropcolon <- function(x) {
 }
 
 
-#' Drop semicolons
+#' Bain leathstadanna
 #'
-#' @param dropsemi Drop semicolons from a dataset
-#' @param x Dataset to which function is applied
+#' @param dropsemi Bain leathstadanna as tacar sonraí
+#' @param x An tacar sonraí ar a gcuirtear an fheidhm i bhfeidhm
 #'
-#' @returns Changes are saved to the dataset
+#' @returns Sábháiltear athruithe sa tacar sonraí
 #' @export
 #'
 #' @examples x <- dropsemi(x)
@@ -133,12 +133,12 @@ dropsemi <- function(x) {
 }
 
 
-#' Change to lowercase
+#' Athraigh go litreacha beaga
 #'
-#' @param lowerall Change characters to lowercase
-#' @param x Dataset to which function is applied
+#' @param lowerall Athraigh an téacs go litreacha beaga
+#' @param x An tacar sonraí ar a gcuirtear an fheidhm i bhfeidhm
 #'
-#' @returns Changes are saved to the dataset
+#' @returns Sábháiltear athruithe sa tacar sonraí
 #' @export
 #'
 #' @examples x <- lowerall(x)
@@ -150,12 +150,12 @@ lowerall <- function(x) {
 }
 
 
-#' Change to uppercase
+#' Athraigh go litreacha móra
 #'
-#' @param upperall Change characters to uppercase
-#' @param x Dataset to which function is applied
+#' @param upperall Athraigh an téacs go litreacha móra
+#' @param x An tacar sonraí ar a gcuirtear an fheidhm i bhfeidhm
 #'
-#' @returns Changes are saved to the dataset
+#' @returns Sábháiltear athruithe sa tacar sonraí
 #' @export
 #'
 #' @examples x <- upperall(x)
@@ -167,14 +167,14 @@ upperall <- function(x) {
 }
 
 
-#' Calculate percentage of total (decimal)
+#' Ríomh céatadán den iomlán (deachúil)
 #'
-#' @param pcdec Calculate percentage of total with decimal output
-#' @param x Dataset to which function is applied
+#' @param pcdec Ríomh céatadán den iomlán le haschur deachúil
+#' @param x An tacar sonraí ar a gcuirtear an fheidhm i bhfeidhm
 #' @param pcdec New column name to be created
 #' @param existing_col_name Existing column name to call
 #'
-#' @returns Changes are saved to the dataset
+#' @returns Sábháiltear athruithe sa tacar sonraí
 #' @export
 #'
 #' @examples x <- pcdec(x, new_col_name, existing_col_name)
@@ -185,14 +185,14 @@ pcdec <- function(x, pcdec, existing_col_name) {
 }
 
 
-#' Calculate percentage of total (rounded decimal)
+#' Ríomh céatadán den iomlán (deachúil cruinn)
 #'
-#' @param percent Calculate percentage of total with *rounded* decimal output (3 digits)
-#' @param x Dataset to which function is applied
+#' @param percent Ríomh céatadán den iomlán le haschur deachúil *cruinn* (3 dhigit)
+#' @param x An tacar sonraí ar a gcuirtear an fheidhm i bhfeidhm
 #' @param percent New column name to be created
 #' @param existing_col_name Existing column name to be called
 #'
-#' @returns Changes are saved to the dataset
+#' @returns Sábháiltear athruithe sa tacar sonraí
 #' @export
 #'
 #' @examples x <- percent(x, new_col_name, existing_col_name)
@@ -203,12 +203,12 @@ percent <- function(x, percent, existing_col_name) {
 }
 
 
-#' Create percentage labels from decimal values
+#' Cruthaigh lipéid céatadáin ó luachanna deachúlacha
 #'
-#' @param pclab Create percentage labels for plotting from decimal values
-#' @param x Dataset to which function is applied
+#' @param pclab Lipéid chéatadáin a chruthú le haghaidh plota ó luachanna deachúlacha
+#' @param x An tacar sonraí ar a gcuirtear an fheidhm i bhfeidhm
 #'
-#' @returns Changes are saved to the dataset
+#' @returns Sábháiltear athruithe sa tacar sonraí
 #' @export
 #'
 #' @examples x <- pclab(x)
@@ -219,13 +219,13 @@ pclab <- function(x) {
 }
 
 
-#' Drop characters or strings contained in a list
+#' Bain carachtair nó teaghráin atá i liosta
 #'
-#' @param droptext Drop characters or strings contained in a list from a dataset
-#' @param x Dataset to which the function is applied
-#' @param todrop List of characters or strings to drop from the dataset. Create using: todrop <- paste(c("value1", "value2"...), collapse = "|")
+#' @param droptext Bain carachtair nó teaghráin atá i liosta as tacar sonraí
+#' @param x An tacar sonraí ar a gcuirtear an fheidhm i bhfeidhm
+#' @param todrop Liosta carachtar nó teaghrán le baint as an tacar sonraí: todrop <- paste(c("value1", "value2"...), collapse = "|")
 #'
-#' @returns Changes are saved to the dataset
+#' @returns Sábháiltear athruithe sa tacar sonraí
 #' @export
 #'
 #' @examples x <- droptext(x)
