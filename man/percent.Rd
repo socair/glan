@@ -9,9 +9,9 @@ percent(x, percent, existing_col_name)
 \arguments{
 \item{x}{An tacar sonraí ar a gcuirtear an fheidhm i bhfeidhm}
 
-\item{percent}{New column name to be created}
+\item{percent}{Ainm nua colúin le cruthú}
 
-\item{existing_col_name}{Existing column name to be called}
+\item{existing_col_name}{Ainm colúin atá ann cheana féin le glaoch}
 }
 \value{
 Sábháiltear athruithe sa tacar sonraí

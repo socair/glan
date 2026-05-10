@@ -9,9 +9,9 @@ pcdec(x, pcdec, existing_col_name)
 \arguments{
 \item{x}{An tacar sonraí ar a gcuirtear an fheidhm i bhfeidhm}
 
-\item{pcdec}{New column name to be created}
+\item{pcdec}{Ainm nua colúin le cruthú}
 
-\item{existing_col_name}{Existing column name to call}
+\item{existing_col_name}{Ainm colúin atá ann cheana féin le glaoch}
 }
 \value{
 Sábháiltear athruithe sa tacar sonraí
