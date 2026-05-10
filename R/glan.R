@@ -133,6 +133,22 @@ dropsemi <- function(x) {
 }
 
 
+#' Bain spásanna
+#'
+#' @param dropspaces Bain spásanna as tacar sonraí
+#' @param x An tacar sonraí ar a gcuirtear an fheidhm i bhfeidhm
+#'
+#' @returns Sábháiltear athruithe sa tacar sonraí
+#' @export
+#'
+#' @examples x <- dropspaces(x)
+#' @examples x <- x %>% dplyr::mutate(col_name=dropspaces(col_name))
+
+dropspaces <- function(x) {
+  x[] <- lapply(x, function(x) gsub(' ', "", x))
+  x
+}
+
 #' Athraigh go litreacha beaga
 #'
 #' @param lowerall Athraigh an téacs go litreacha beaga
