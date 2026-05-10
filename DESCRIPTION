@@ -15,6 +15,7 @@ License: What license is it under?
 Encoding: UTF-8
 LazyData: true
 Config/roxygen2/version: 8.0.0
-Imports: usethis::use_package("dplyr")
+Imports:
+    dplyr
 URL: https://github.com/socair/glan
 BugReports: https://github.com/socair/glan/issues
