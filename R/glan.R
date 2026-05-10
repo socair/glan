@@ -171,8 +171,8 @@ upperall <- function(x) {
 #'
 #' @param pcdec Ríomh céatadán den iomlán le haschur deachúil
 #' @param x An tacar sonraí ar a gcuirtear an fheidhm i bhfeidhm
-#' @param pcdec New column name to be created
-#' @param existing_col_name Existing column name to call
+#' @param pcdec Ainm nua colúin le cruthú
+#' @param existing_col_name Ainm colúin atá ann cheana féin le glaoch
 #'
 #' @returns Sábháiltear athruithe sa tacar sonraí
 #' @export
@@ -189,8 +189,8 @@ pcdec <- function(x, pcdec, existing_col_name) {
 #'
 #' @param percent Ríomh céatadán den iomlán le haschur deachúil *cruinn* (3 dhigit)
 #' @param x An tacar sonraí ar a gcuirtear an fheidhm i bhfeidhm
-#' @param percent New column name to be created
-#' @param existing_col_name Existing column name to be called
+#' @param percent Ainm nua colúin le cruthú
+#' @param existing_col_name Ainm colúin atá ann cheana féin le glaoch
 #'
 #' @returns Sábháiltear athruithe sa tacar sonraí
 #' @export
