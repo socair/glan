@@ -234,3 +234,4 @@ droptext <- function(x) {
   x[] <- as.data.frame(lapply(x, function(x) gsub(todrop, "", x, ignore.case = TRUE)))
   x
 }
+
