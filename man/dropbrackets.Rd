@@ -9,7 +9,7 @@ dropbrackets(x)
 dropbrackets(x)
 }
 \arguments{
-\item{x}{An tacar sonraí ar a gcuirtear an fheidhm i bhfeidhm}
+\item{x}{}
 
 \item{dropbrackets}{Bain lúibíní cearnacha as tacar sonraí}
 }

@@ -1,9 +1,9 @@
-#' Bain lúibíní cearnacha
+#' bain lúibíní cearnacha
 #'
-#' @param dropbrackets Bain lúibíní cearnacha as tacar sonraí
-#' @param x An tacar sonraí ar a gcuirtear an fheidhm i bhfeidhm
+#' @param dropbrackets bain lúibíní cearnacha as tacar sonraí
+#' @param x an tacar sonraí ar a gcuirtear an fheidhm i bhfeidhm
 #'
-#' @returns Sábháiltear athruithe sa tacar sonraí
+#' @returns sábháiltear athruithe sa tacar sonraí
 #' @export
 #'
 #' @examples x <- dropbrackets(x)
@@ -15,12 +15,12 @@ dropbrackets <- function(x) {
 }
 
 
-#' Bain lúibíní slabhracha
+#' bain lúibíní slabhracha
 #'
-#' @param dropbraces Bain lúibíní slabhracha as tacar sonraí
-#' @param x An tacar sonraí ar a gcuirtear an fheidhm i bhfeidhm
+#' @param dropbraces bain lúibíní slabhracha as tacar sonraí
+#' @param x an tacar sonraí ar a gcuirtear an fheidhm i bhfeidhm
 #'
-#' @returns Sábháiltear athruithe sa tacar sonraí
+#' @returns sábháiltear athruithe sa tacar sonraí
 #' @export
 #'
 #' @examples x <- dropbraces(x)
@@ -31,12 +31,12 @@ dropbraces <- function(x) {
   x
 }
 
-#' Bain comhartha athfhriotail
+#' bain comhartha athfhriotail
 #'
-#' @param dropquotes Bain comhartha athfhriotail as tacar sonraí
-#' @param x An tacar sonraí ar a gcuirtear an fheidhm i bhfeidhm
+#' @param dropquotes bain comhartha athfhriotail as tacar sonraí
+#' @param x an tacar sonraí ar a gcuirtear an fheidhm i bhfeidhm
 #'
-#' @returns Sábháiltear athruithe sa tacar sonraí
+#' @returns sábháiltear athruithe sa tacar sonraí
 #' @export
 #'
 #' @examples x <- dropquotes(x)
@@ -48,12 +48,12 @@ dropquotes <- function(x) {
 }
 
 
-#' Bain lúibíní
+#' bain lúibíní
 #'
-#' @param dropparen Bain lúibíní as tacar sonraí
-#' @param x An tacar sonraí ar a gcuirtear an fheidhm i bhfeidhm
+#' @param dropparen bain lúibíní as tacar sonraí
+#' @param x an tacar sonraí ar a gcuirtear an fheidhm i bhfeidhm
 #'
-#' @returns Sábháiltear athruithe sa tacar sonraí
+#' @returns sábháiltear athruithe sa tacar sonraí
 #' @export
 #'
 #' @examples x <- dropparen(x)
@@ -65,12 +65,12 @@ dropparen <- function(x) {
 }
 
 
-#' Bain camóga
+#' bain camóga
 #'
-#' @param dropcomma Bain camóga as tacar sonraí
-#' @param x An tacar sonraí ar a gcuirtear an fheidhm i bhfeidhm
+#' @param dropcomma bain camóga as tacar sonraí
+#' @param x an tacar sonraí ar a gcuirtear an fheidhm i bhfeidhm
 #'
-#' @returns Sábháiltear athruithe sa tacar sonraí
+#' @returns sábháiltear athruithe sa tacar sonraí
 #' @export
 #'
 #' @examples x <- dropcomma(x)
@@ -82,12 +82,12 @@ dropcomma <- function(x) {
 }
 
 
-#' Bain lánstadanna
+#' bain lánstadanna
 #'
-#' @param dropstop Bain lánstadanna as tacar sonraí
-#' @param x An tacar sonraí ar a gcuirtear an fheidhm i bhfeidhm
+#' @param dropstop bain lánstadanna as tacar sonraí
+#' @param x an tacar sonraí ar a gcuirtear an fheidhm i bhfeidhm
 #'
-#' @returns Sábháiltear athruithe sa tacar sonraí
+#' @returns sábháiltear athruithe sa tacar sonraí
 #' @export
 #'
 #' @examples x <- dropstop(x)
@@ -99,12 +99,12 @@ dropstop <- function(x) {
 }
 
 
-#' Bain idirstadanna
+#' bain idirstadanna
 #'
-#' @param dropcolon Bain idirstadanna as tacar sonraí
-#' @param x An tacar sonraí ar a gcuirtear an fheidhm i bhfeidhm
+#' @param dropcolon bain idirstadanna as tacar sonraí
+#' @param x an tacar sonraí ar a gcuirtear an fheidhm i bhfeidhm
 #'
-#' @returns Sábháiltear athruithe sa tacar sonraí
+#' @returns sábháiltear athruithe sa tacar sonraí
 #' @export
 #'
 #' @examples x <- dropcolon(x)
@@ -116,12 +116,12 @@ dropcolon <- function(x) {
 }
 
 
-#' Bain leathstadanna
+#' bain leathstadanna
 #'
-#' @param dropsemi Bain leathstadanna as tacar sonraí
-#' @param x An tacar sonraí ar a gcuirtear an fheidhm i bhfeidhm
+#' @param dropsemi bain leathstadanna as tacar sonraí
+#' @param x an tacar sonraí ar a gcuirtear an fheidhm i bhfeidhm
 #'
-#' @returns Sábháiltear athruithe sa tacar sonraí
+#' @returns sábháiltear athruithe sa tacar sonraí
 #' @export
 #'
 #' @examples x <- dropsemi(x)
@@ -133,12 +133,12 @@ dropsemi <- function(x) {
 }
 
 
-#' Bain spásanna
+#' bain spásanna
 #'
-#' @param dropspaces Bain spásanna as tacar sonraí
-#' @param x An tacar sonraí ar a gcuirtear an fheidhm i bhfeidhm
+#' @param dropspaces bain spásanna as tacar sonraí
+#' @param x an tacar sonraí ar a gcuirtear an fheidhm i bhfeidhm
 #'
-#' @returns Sábháiltear athruithe sa tacar sonraí
+#' @returns sábháiltear athruithe sa tacar sonraí
 #' @export
 #'
 #' @examples x <- dropspaces(x)
@@ -149,12 +149,12 @@ dropspaces <- function(x) {
   x
 }
 
-#' Athraigh go litreacha beaga
+#' athraigh go litreacha beaga
 #'
-#' @param lowerall Athraigh an téacs go litreacha beaga
-#' @param x An tacar sonraí ar a gcuirtear an fheidhm i bhfeidhm
+#' @param lowerall athraigh an téacs go litreacha beaga
+#' @param x an tacar sonraí ar a gcuirtear an fheidhm i bhfeidhm
 #'
-#' @returns Sábháiltear athruithe sa tacar sonraí
+#' @returns sábháiltear athruithe sa tacar sonraí
 #' @export
 #'
 #' @examples x <- lowerall(x)
@@ -166,12 +166,12 @@ lowerall <- function(x) {
 }
 
 
-#' Athraigh go litreacha móra
+#' athraigh go litreacha móra
 #'
-#' @param upperall Athraigh an téacs go litreacha móra
-#' @param x An tacar sonraí ar a gcuirtear an fheidhm i bhfeidhm
+#' @param upperall athraigh an téacs go litreacha móra
+#' @param x an tacar sonraí ar a gcuirtear an fheidhm i bhfeidhm
 #'
-#' @returns Sábháiltear athruithe sa tacar sonraí
+#' @returns sábháiltear athruithe sa tacar sonraí
 #' @export
 #'
 #' @examples x <- upperall(x)
@@ -183,14 +183,14 @@ upperall <- function(x) {
 }
 
 
-#' Ríomh céatadán den iomlán (deachúil)
+#' ríomh céatadán den iomlán (deachúil)
 #'
-#' @param pcdec Ríomh céatadán den iomlán le haschur deachúil
-#' @param x An tacar sonraí ar a gcuirtear an fheidhm i bhfeidhm
-#' @param pcdec Ainm nua colúin le cruthú
-#' @param existing_col_name Ainm colúin atá ann cheana féin le glaoch
+#' @param pcdec ríomh céatadán den iomlán le haschur deachúil
+#' @param x an tacar sonraí ar a gcuirtear an fheidhm i bhfeidhm
+#' @param pcdec ainm nua colúin le cruthú
+#' @param existing_col_name ainm colúin atá ann cheana féin le glaoch
 #'
-#' @returns Sábháiltear athruithe sa tacar sonraí
+#' @returns sábháiltear athruithe sa tacar sonraí
 #' @export
 #'
 #' @examples x <- pcdec(x, new_col_name, existing_col_name)
@@ -201,14 +201,14 @@ pcdec <- function(x, pcdec, existing_col_name) {
 }
 
 
-#' Ríomh céatadán den iomlán (deachúil cruinn)
+#' ríomh céatadán den iomlán (deachúil cruinn)
 #'
-#' @param percent Ríomh céatadán den iomlán le haschur deachúil *cruinn* (3 dhigit)
-#' @param x An tacar sonraí ar a gcuirtear an fheidhm i bhfeidhm
-#' @param percent Ainm nua colúin le cruthú
-#' @param existing_col_name Ainm colúin atá ann cheana féin le glaoch
+#' @param percent ríomh céatadán den iomlán le haschur deachúil *cruinn* (3 dhigit)
+#' @param x an tacar sonraí ar a gcuirtear an fheidhm i bhfeidhm
+#' @param percent ainm nua colúin le cruthú
+#' @param existing_col_name ainm colúin atá ann cheana féin le glaoch
 #'
-#' @returns Sábháiltear athruithe sa tacar sonraí
+#' @returns sábháiltear athruithe sa tacar sonraí
 #' @export
 #'
 #' @examples x <- percent(x, new_col_name, existing_col_name)
@@ -219,12 +219,12 @@ percent <- function(x, percent, existing_col_name) {
 }
 
 
-#' Cruthaigh lipéid céatadáin ó luachanna deachúlacha
+#' cruthaigh lipéid céatadáin ó luachanna deachúlacha
 #'
-#' @param pclab Lipéid chéatadáin a chruthú le haghaidh plota ó luachanna deachúlacha
-#' @param x An tacar sonraí ar a gcuirtear an fheidhm i bhfeidhm
+#' @param pclab lipéid chéatadáin a chruthú le haghaidh plota ó luachanna deachúlacha
+#' @param x an tacar sonraí ar a gcuirtear an fheidhm i bhfeidhm
 #'
-#' @returns Sábháiltear athruithe sa tacar sonraí
+#' @returns sábháiltear athruithe sa tacar sonraí
 #' @export
 #'
 #' @examples x <- pclab(x)
@@ -235,19 +235,35 @@ pclab <- function(x) {
 }
 
 
-#' Bain carachtair nó teaghráin atá i liosta
+#' bain carachtair nó teaghráin atá i liosta
 #'
-#' @param droptext Bain carachtair nó teaghráin atá i liosta as tacar sonraí
-#' @param x An tacar sonraí ar a gcuirtear an fheidhm i bhfeidhm
-#' @param todrop Liosta carachtar nó teaghrán le baint as an tacar sonraí: todrop <- paste(c("value1", "value2"...), collapse = "|")
+#' @param droptext bain carachtair nó teaghráin atá i liosta as tacar sonraí
+#' @param x an tacar sonraí ar a gcuirtear an fheidhm i bhfeidhm
+#' @param todrop liosta carachtar nó teaghrán le baint as an tacar sonraí: todrop <- paste(c("value1", "value2"...), collapse = "|")
 #'
-#' @returns Sábháiltear athruithe sa tacar sonraí
+#' @returns sábháiltear athruithe sa tacar sonraí
 #' @export
 #'
 #' @examples x <- droptext(x)
 
 droptext <- function(x) {
   x[] <- as.data.frame(lapply(x, function(x) gsub(todrop, "", x, ignore.case = TRUE)))
+  x
+}
+
+
+#' athraigh na chéad sraitheanna
+#'
+#' @param firstrow athraigh luachanna an chéad ró go hainmneacha na gcolún
+#' @param x an tacar sonraí ar a gcuirtear an fheidhm i bhfeidhm
+#'
+#' @returns sábháiltear athruithe sa tacar sonraí
+#' @export
+#'
+#' @examples x <- firstrow(x)
+
+firstrow <- function(x) {
+  x <- x %>% row_to_names(row_number=1)
   x
 }
 

@@ -19,3 +19,4 @@ Imports:
 Depends: dplyr
 URL: https://github.com/socair/glan
 BugReports: https://github.com/socair/glan/issues
+RoxygenNote: 7.3.3
