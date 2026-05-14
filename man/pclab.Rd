@@ -2,20 +2,20 @@
 % Please edit documentation in R/glan.R
 \name{pclab}
 \alias{pclab}
-\title{Cruthaigh lipéid céatadáin ó luachanna deachúlacha}
+\title{cruthaigh lipéid céatadáin ó luachanna deachúlacha}
 \usage{
 pclab(x)
 }
 \arguments{
-\item{x}{An tacar sonraí ar a gcuirtear an fheidhm i bhfeidhm}
+\item{x}{an tacar sonraí ar a gcuirtear an fheidhm i bhfeidhm}
 
-\item{pclab}{Lipéid chéatadáin a chruthú le haghaidh plota ó luachanna deachúlacha}
+\item{pclab}{lipéid chéatadáin a chruthú le haghaidh plota ó luachanna deachúlacha}
 }
 \value{
-Sábháiltear athruithe sa tacar sonraí
+sábháiltear athruithe sa tacar sonraí
 }
 \description{
-Cruthaigh lipéid céatadáin ó luachanna deachúlacha
+cruthaigh lipéid céatadáin ó luachanna deachúlacha
 }
 \examples{
 x <- pclab(x)

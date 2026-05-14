@@ -2,22 +2,22 @@
 % Please edit documentation in R/glan.R
 \name{pcdec}
 \alias{pcdec}
-\title{Ríomh céatadán den iomlán (deachúil)}
+\title{ríomh céatadán den iomlán (deachúil)}
 \usage{
 pcdec(x, pcdec, existing_col_name)
 }
 \arguments{
-\item{x}{An tacar sonraí ar a gcuirtear an fheidhm i bhfeidhm}
+\item{x}{an tacar sonraí ar a gcuirtear an fheidhm i bhfeidhm}
 
-\item{pcdec}{Ainm nua colúin le cruthú}
+\item{pcdec}{ainm nua colúin le cruthú}
 
-\item{existing_col_name}{Ainm colúin atá ann cheana féin le glaoch}
+\item{existing_col_name}{ainm colúin atá ann cheana féin le glaoch}
 }
 \value{
-Sábháiltear athruithe sa tacar sonraí
+sábháiltear athruithe sa tacar sonraí
 }
 \description{
-Ríomh céatadán den iomlán (deachúil)
+ríomh céatadán den iomlán (deachúil)
 }
 \examples{
 x <- pcdec(x, new_col_name, existing_col_name)

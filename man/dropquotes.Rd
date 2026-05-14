@@ -2,20 +2,20 @@
 % Please edit documentation in R/glan.R
 \name{dropquotes}
 \alias{dropquotes}
-\title{Bain comhartha athfhriotail}
+\title{bain comhartha athfhriotail}
 \usage{
 dropquotes(x)
 }
 \arguments{
-\item{x}{An tacar sonraí ar a gcuirtear an fheidhm i bhfeidhm}
+\item{x}{an tacar sonraí ar a gcuirtear an fheidhm i bhfeidhm}
 
-\item{dropquotes}{Bain comhartha athfhriotail as tacar sonraí}
+\item{dropquotes}{bain comhartha athfhriotail as tacar sonraí}
 }
 \value{
-Sábháiltear athruithe sa tacar sonraí
+sábháiltear athruithe sa tacar sonraí
 }
 \description{
-Bain comhartha athfhriotail
+bain comhartha athfhriotail
 }
 \examples{
 x <- dropquotes(x)

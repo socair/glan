@@ -2,20 +2,20 @@
 % Please edit documentation in R/glan.R
 \name{lowerall}
 \alias{lowerall}
-\title{Athraigh go litreacha beaga}
+\title{athraigh go litreacha beaga}
 \usage{
 lowerall(x)
 }
 \arguments{
-\item{x}{An tacar sonraí ar a gcuirtear an fheidhm i bhfeidhm}
+\item{x}{an tacar sonraí ar a gcuirtear an fheidhm i bhfeidhm}
 
-\item{lowerall}{Athraigh an téacs go litreacha beaga}
+\item{lowerall}{athraigh an téacs go litreacha beaga}
 }
 \value{
-Sábháiltear athruithe sa tacar sonraí
+sábháiltear athruithe sa tacar sonraí
 }
 \description{
-Athraigh go litreacha beaga
+athraigh go litreacha beaga
 }
 \examples{
 x <- lowerall(x)

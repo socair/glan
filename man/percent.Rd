@@ -2,22 +2,22 @@
 % Please edit documentation in R/glan.R
 \name{percent}
 \alias{percent}
-\title{Ríomh céatadán den iomlán (deachúil cruinn)}
+\title{ríomh céatadán den iomlán (deachúil cruinn)}
 \usage{
 percent(x, percent, existing_col_name)
 }
 \arguments{
-\item{x}{An tacar sonraí ar a gcuirtear an fheidhm i bhfeidhm}
+\item{x}{an tacar sonraí ar a gcuirtear an fheidhm i bhfeidhm}
 
-\item{percent}{Ainm nua colúin le cruthú}
+\item{percent}{ainm nua colúin le cruthú}
 
-\item{existing_col_name}{Ainm colúin atá ann cheana féin le glaoch}
+\item{existing_col_name}{ainm colúin atá ann cheana féin le glaoch}
 }
 \value{
-Sábháiltear athruithe sa tacar sonraí
+sábháiltear athruithe sa tacar sonraí
 }
 \description{
-Ríomh céatadán den iomlán (deachúil cruinn)
+ríomh céatadán den iomlán (deachúil cruinn)
 }
 \examples{
 x <- percent(x, new_col_name, existing_col_name)

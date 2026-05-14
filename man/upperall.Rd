@@ -2,20 +2,20 @@
 % Please edit documentation in R/glan.R
 \name{upperall}
 \alias{upperall}
-\title{Athraigh go litreacha móra}
+\title{athraigh go litreacha móra}
 \usage{
 upperall(x)
 }
 \arguments{
-\item{x}{An tacar sonraí ar a gcuirtear an fheidhm i bhfeidhm}
+\item{x}{an tacar sonraí ar a gcuirtear an fheidhm i bhfeidhm}
 
-\item{upperall}{Athraigh an téacs go litreacha móra}
+\item{upperall}{athraigh an téacs go litreacha móra}
 }
 \value{
-Sábháiltear athruithe sa tacar sonraí
+sábháiltear athruithe sa tacar sonraí
 }
 \description{
-Athraigh go litreacha móra
+athraigh go litreacha móra
 }
 \examples{
 x <- upperall(x)

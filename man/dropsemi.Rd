@@ -2,20 +2,20 @@
 % Please edit documentation in R/glan.R
 \name{dropsemi}
 \alias{dropsemi}
-\title{Bain leathstadanna}
+\title{bain leathstadanna}
 \usage{
 dropsemi(x)
 }
 \arguments{
-\item{x}{An tacar sonraí ar a gcuirtear an fheidhm i bhfeidhm}
+\item{x}{an tacar sonraí ar a gcuirtear an fheidhm i bhfeidhm}
 
-\item{dropsemi}{Bain leathstadanna as tacar sonraí}
+\item{dropsemi}{bain leathstadanna as tacar sonraí}
 }
 \value{
-Sábháiltear athruithe sa tacar sonraí
+sábháiltear athruithe sa tacar sonraí
 }
 \description{
-Bain leathstadanna
+bain leathstadanna
 }
 \examples{
 x <- dropsemi(x)

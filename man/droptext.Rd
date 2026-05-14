@@ -2,22 +2,22 @@
 % Please edit documentation in R/glan.R
 \name{droptext}
 \alias{droptext}
-\title{Bain carachtair nó teaghráin atá i liosta}
+\title{bain carachtair nó teaghráin atá i liosta}
 \usage{
 droptext(x)
 }
 \arguments{
-\item{x}{An tacar sonraí ar a gcuirtear an fheidhm i bhfeidhm}
+\item{x}{an tacar sonraí ar a gcuirtear an fheidhm i bhfeidhm}
 
-\item{droptext}{Bain carachtair nó teaghráin atá i liosta as tacar sonraí}
+\item{droptext}{bain carachtair nó teaghráin atá i liosta as tacar sonraí}
 
-\item{todrop}{Liosta carachtar nó teaghrán le baint as an tacar sonraí: todrop <- paste(c("value1", "value2"...), collapse = "|")}
+\item{todrop}{liosta carachtar nó teaghrán le baint as an tacar sonraí: todrop <- paste(c("value1", "value2"...), collapse = "|")}
 }
 \value{
-Sábháiltear athruithe sa tacar sonraí
+sábháiltear athruithe sa tacar sonraí
 }
 \description{
-Bain carachtair nó teaghráin atá i liosta
+bain carachtair nó teaghráin atá i liosta
 }
 \examples{
 x <- droptext(x)

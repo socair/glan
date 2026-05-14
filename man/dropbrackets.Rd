@@ -2,7 +2,7 @@
 % Please edit documentation in R/glan.R, R/hello.R
 \name{dropbrackets}
 \alias{dropbrackets}
-\title{Bain lúibíní cearnacha}
+\title{bain lúibíní cearnacha}
 \usage{
 dropbrackets(x)
 
@@ -11,13 +11,13 @@ dropbrackets(x)
 \arguments{
 \item{x}{}
 
-\item{dropbrackets}{Bain lúibíní cearnacha as tacar sonraí}
+\item{dropbrackets}{bain lúibíní cearnacha as tacar sonraí}
 }
 \value{
-Sábháiltear athruithe sa tacar sonraí
+sábháiltear athruithe sa tacar sonraí
 }
 \description{
-Bain lúibíní cearnacha
+bain lúibíní cearnacha
 
 Drop Brackets
 }

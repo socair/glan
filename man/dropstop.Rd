@@ -2,20 +2,20 @@
 % Please edit documentation in R/glan.R
 \name{dropstop}
 \alias{dropstop}
-\title{Bain lánstadanna}
+\title{bain lánstadanna}
 \usage{
 dropstop(x)
 }
 \arguments{
-\item{x}{An tacar sonraí ar a gcuirtear an fheidhm i bhfeidhm}
+\item{x}{an tacar sonraí ar a gcuirtear an fheidhm i bhfeidhm}
 
-\item{dropstop}{Bain lánstadanna as tacar sonraí}
+\item{dropstop}{bain lánstadanna as tacar sonraí}
 }
 \value{
-Sábháiltear athruithe sa tacar sonraí
+sábháiltear athruithe sa tacar sonraí
 }
 \description{
-Bain lánstadanna
+bain lánstadanna
 }
 \examples{
 x <- dropstop(x)

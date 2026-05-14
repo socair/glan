@@ -2,20 +2,20 @@
 % Please edit documentation in R/glan.R
 \name{dropspaces}
 \alias{dropspaces}
-\title{Bain spásanna}
+\title{bain spásanna}
 \usage{
 dropspaces(x)
 }
 \arguments{
-\item{x}{An tacar sonraí ar a gcuirtear an fheidhm i bhfeidhm}
+\item{x}{an tacar sonraí ar a gcuirtear an fheidhm i bhfeidhm}
 
-\item{dropspaces}{Bain spásanna as tacar sonraí}
+\item{dropspaces}{bain spásanna as tacar sonraí}
 }
 \value{
-Sábháiltear athruithe sa tacar sonraí
+sábháiltear athruithe sa tacar sonraí
 }
 \description{
-Bain spásanna
+bain spásanna
 }
 \examples{
 x <- dropspaces(x)

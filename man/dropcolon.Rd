@@ -2,20 +2,20 @@
 % Please edit documentation in R/glan.R
 \name{dropcolon}
 \alias{dropcolon}
-\title{Bain idirstadanna}
+\title{bain idirstadanna}
 \usage{
 dropcolon(x)
 }
 \arguments{
-\item{x}{An tacar sonraí ar a gcuirtear an fheidhm i bhfeidhm}
+\item{x}{an tacar sonraí ar a gcuirtear an fheidhm i bhfeidhm}
 
-\item{dropcolon}{Bain idirstadanna as tacar sonraí}
+\item{dropcolon}{bain idirstadanna as tacar sonraí}
 }
 \value{
-Sábháiltear athruithe sa tacar sonraí
+sábháiltear athruithe sa tacar sonraí
 }
 \description{
-Bain idirstadanna
+bain idirstadanna
 }
 \examples{
 x <- dropcolon(x)

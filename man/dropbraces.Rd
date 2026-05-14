@@ -2,20 +2,20 @@
 % Please edit documentation in R/glan.R
 \name{dropbraces}
 \alias{dropbraces}
-\title{Bain lúibíní slabhracha}
+\title{bain lúibíní slabhracha}
 \usage{
 dropbraces(x)
 }
 \arguments{
-\item{x}{An tacar sonraí ar a gcuirtear an fheidhm i bhfeidhm}
+\item{x}{an tacar sonraí ar a gcuirtear an fheidhm i bhfeidhm}
 
-\item{dropbraces}{Bain lúibíní slabhracha as tacar sonraí}
+\item{dropbraces}{bain lúibíní slabhracha as tacar sonraí}
 }
 \value{
-Sábháiltear athruithe sa tacar sonraí
+sábháiltear athruithe sa tacar sonraí
 }
 \description{
-Bain lúibíní slabhracha
+bain lúibíní slabhracha
 }
 \examples{
 x <- dropbraces(x)

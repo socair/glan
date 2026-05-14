@@ -2,20 +2,20 @@
 % Please edit documentation in R/glan.R
 \name{dropparen}
 \alias{dropparen}
-\title{Bain lúibíní}
+\title{bain lúibíní}
 \usage{
 dropparen(x)
 }
 \arguments{
-\item{x}{An tacar sonraí ar a gcuirtear an fheidhm i bhfeidhm}
+\item{x}{an tacar sonraí ar a gcuirtear an fheidhm i bhfeidhm}
 
-\item{dropparen}{Bain lúibíní as tacar sonraí}
+\item{dropparen}{bain lúibíní as tacar sonraí}
 }
 \value{
-Sábháiltear athruithe sa tacar sonraí
+sábháiltear athruithe sa tacar sonraí
 }
 \description{
-Bain lúibíní
+bain lúibíní
 }
 \examples{
 x <- dropparen(x)
