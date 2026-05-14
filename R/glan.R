@@ -267,3 +267,19 @@ firstrow <- function(x) {
   x
 }
 
+
+#' bain colúin NA
+#'
+#' @param dropnacol bain colúin ina bhfuil luachanna NA
+#' @param x an tacar sonraí ar a gcuirtear an fheidhm i bhfeidhm
+#'
+#' @returns sábháiltear athruithe sa tacar sonraí
+#' @export
+#'
+#' @examples x <- dropnacol(x)
+
+dropnacol <- function(x) {
+  x <- x[,colMeans(is.na(x)) !=1]
+  x
+}
+
